@@ -1,0 +1,25 @@
+# Site settings
+title: "lipxhome"
+description: >
+  Love coding, Love life.
+
+author: lipixun
+email: lipixun@gmail.com
+twitter_username: lipixun
+github_username: lipixun
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lipixun.me" # the base hostname & protocol for your site
+
+google_analytics_id:
+disqus_id: lipixun
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:day/:title
+
+sass:
+    style: compressed
+
+exclude: [vendor]
