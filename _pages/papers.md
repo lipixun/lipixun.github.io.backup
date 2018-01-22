@@ -13,3 +13,5 @@ permalink: /papers/
 * [DeepWalk: Online Learning of Social Representations](/2018/01/11/deepwalk)
 * [Use of Deep Learning in Modern Recommendation System: A Summary of Recent Works](/2018/01/08/use-of-deep-learning-in-modern-recommendation-system)
 * [LINE: Large-scale Information Network Embedding](/2018/01/12/line)
+* [Collaborative Filtering with Recurrent Neural Networks](/2018/01/21/cf-with-rnn)
+* [BPR: Bayesian Personalized Ranking from Implicit Feedback](/2018/01/22/bpr)
