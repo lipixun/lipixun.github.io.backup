@@ -6,7 +6,11 @@
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <!-- Styles -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>
+    <!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic" type="text/css">
+    -->
+    <!-- Replaced by china sources -->
+    <link rel="stylesheet" href="https:///fonts.cat.net/css?family=Roboto+Mono|Roboto:300,400,900,400italic" type="text/css">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -16,8 +20,8 @@
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-112830030-1');
+        gtag("js", new Date());
+        gtag("config", "UA-112830030-1");
     </script>
     <!-- Baidu Analytics -->
     <script>
@@ -37,8 +41,8 @@
             extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
             jax: ["input/TeX"],
             tex2jax: {
-                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+                displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
                 processEscapes: false
             },
             TeX: {
@@ -49,7 +53,7 @@
                     autoNumber: "AMS",
                 },
                 unicode: {
-                    fonts: "STIXGeneral,'Arial Unicode MS'"
+                    fonts: "STIXGeneral, Arial Unicode MS"
                 }
             },
             showProcessingMessages: false
