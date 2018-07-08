@@ -16,3 +16,7 @@ permalink: /infra-comp/
 * [Tensorflow - MNIST For ML Beginners](/2016/09/24/tf-002)
 * [Tensorflow - Deep MNIST for Experts](/2016/09/25/tf-003)
 * [Tensorflow - LSTM and PTB-Word-LM](/2016/09/25/tf-004)
+
+## 机器学习
+
+* [机器学习架构 - More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server](/2018/07/08/ssp)

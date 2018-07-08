@@ -15,3 +15,5 @@ permalink: /papers/
 * [LINE: Large-scale Information Network Embedding](/2018/01/12/line)
 * [Collaborative Filtering with Recurrent Neural Networks](/2018/01/21/cf-with-rnn)
 * [BPR: Bayesian Personalized Ranking from Implicit Feedback](/2018/01/22/bpr)
+* [Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks](/2018/07/08/weight-normalization)
+* [More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server](/2018/07/08/ssp)
